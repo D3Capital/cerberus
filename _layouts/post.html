@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+
+    <div class="entry-meta">
+      {% if page.category %}
+        {{ page.category }}
+      {% else %}
+        Notes
+      {% endif %}
+
+      ·
+
+      {{ page.date | date: "%d %B %Y" }}
+    </div>
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="post-description">
+        {{ page.description }}
+      </p>
+    {% endif %}
+
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer class="post-end">
+
+    <span>III</span>
+
+    <a href="{{ '/' | relative_url }}">
+      Return to Journal
+    </a>
+
+  </footer>
+
+</article>
