@@ -563,3 +563,64 @@ a {
     display: none;
   }
 }
+/* =========================================================
+   About
+   ========================================================= */
+
+.about-kicker {
+  margin-bottom: 25px;
+
+  color: var(--accent);
+
+  font-size: 10px;
+  letter-spacing: 0.22em;
+}
+
+.about-page > p:first-of-type {
+  color: var(--text-soft);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.about-times {
+  margin: 70px 0;
+  border-top: 1px solid var(--line);
+}
+
+.about-time {
+  padding: 38px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.about-time h3 {
+  margin: 0 0 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.about-time p {
+  color: var(--text-soft);
+}
+
+.about-past {
+  opacity: 0.58;
+}
+
+.about-present h3 {
+  color: var(--text);
+}
+
+.about-future h3 {
+  color: var(--accent);
+}
+
+.about-signature {
+  margin-top: 75px;
+
+  color: var(--text-dim);
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.8;
+}
