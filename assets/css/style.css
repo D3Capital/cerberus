@@ -624,3 +624,49 @@ a {
   font-size: 13px;
   line-height: 1.8;
 }
+/* =========================================================
+   About — Minimal
+   ========================================================= */
+
+.about-page {
+  max-width: 680px;
+  min-height: 650px;
+}
+
+.about-kicker {
+  margin-bottom: 28px;
+
+  color: var(--text-dim);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+}
+
+.about-page h1 {
+  margin-bottom: 38px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.about-lead {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.7;
+}
+
+.about-page p {
+  max-width: 600px;
+  color: var(--text-soft);
+}
+
+.about-note {
+  margin-top: 65px !important;
+
+  color: var(--text-dim) !important;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 2;
+  letter-spacing: 0.08em;
+}
