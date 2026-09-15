@@ -3,21 +3,28 @@ layout: default
 title: Journal
 ---
 
+<section class="time-intro">
+  <p>Notes across time.</p>
+</section>
+
 <section class="time-axis">
 
   <div class="time-item time-past">
     <span class="time-label">What remains</span>
     <span class="time-word">Past</span>
+    <span class="time-meaning">Memory · History · Experience</span>
   </div>
 
   <div class="time-item time-present">
     <span class="time-label">What is</span>
     <span class="time-word">Present</span>
+    <span class="time-meaning">Observation · Decision · Life</span>
   </div>
 
   <div class="time-item time-future">
     <span class="time-label">What may come</span>
     <span class="time-word">Future</span>
+    <span class="time-meaning">Possibility · Change · Becoming</span>
   </div>
 
 </section>
