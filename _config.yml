@@ -2,10 +2,8 @@ title: CERBERUS
 description: Personal journal
 author: D3Capital
 
-theme: minima
-
-url: "https://d3capital.github.io"
-baseurl: "/cerberus"
+url: "https://cerberus.blog"
+baseurl: ""
 
 markdown: kramdown
 
