@@ -1,2 +1,2 @@
-# -cerberus
+# cerberus
     Personal journal
