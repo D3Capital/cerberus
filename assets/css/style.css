@@ -670,3 +670,120 @@ a {
   line-height: 2;
   letter-spacing: 0.08em;
 }
+/* =========================================================
+   Archive
+   ========================================================= */
+
+.archive {
+  max-width: var(--page-width);
+  min-height: 720px;
+
+  margin: 0 auto;
+  padding: 100px 32px 130px;
+}
+
+.archive-header {
+  margin-bottom: 90px;
+}
+
+.archive-kicker {
+  display: block;
+  margin-bottom: 20px;
+
+  color: var(--text-dim);
+
+  font-size: 10px;
+  letter-spacing: 0.22em;
+}
+
+.archive-header h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 46px;
+  font-weight: 400;
+}
+
+.archive-year {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+
+  margin-bottom: 75px;
+}
+
+.archive-year-label {
+  color: var(--text-dim);
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.archive-list {
+  border-top: 1px solid var(--line);
+}
+
+.archive-entry {
+  display: grid;
+  grid-template-columns: 85px 1fr 100px;
+  gap: 20px;
+
+  padding: 24px 0;
+
+  border-bottom: 1px solid var(--line);
+
+  align-items: baseline;
+}
+
+.archive-entry time {
+  color: var(--text-dim);
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+}
+
+.archive-entry-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+
+  transition: color 0.2s ease;
+}
+
+.archive-entry-category {
+  color: var(--text-dim);
+
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.archive-entry:hover .archive-entry-title {
+  color: var(--accent);
+}
+
+@media (max-width: 700px) {
+
+  .archive {
+    padding: 70px 22px 90px;
+  }
+
+  .archive-header {
+    margin-bottom: 60px;
+  }
+
+  .archive-year {
+    display: block;
+  }
+
+  .archive-year-label {
+    margin-bottom: 20px;
+  }
+
+  .archive-entry {
+    grid-template-columns: 65px 1fr;
+  }
+
+  .archive-entry-category {
+    display: none;
+  }
+}
