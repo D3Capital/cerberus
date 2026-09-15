@@ -510,3 +510,56 @@ a {
 .post-end a:hover {
   color: var(--accent);
 }
+/* =========================================================
+   Time Introduction
+   ========================================================= */
+
+.time-intro {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 76px 32px 0;
+}
+
+.time-intro p {
+  margin: 0;
+
+  color: var(--text-dim);
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+.time-axis {
+  padding-top: 55px;
+}
+
+.time-meaning {
+  display: block;
+  margin-top: 15px;
+
+  color: var(--text-dim);
+
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.time-future .time-meaning {
+  color: rgba(143, 124, 255, 0.55);
+}
+
+@media (max-width: 700px) {
+
+  .time-intro {
+    padding: 55px 22px 0;
+  }
+
+  .time-axis {
+    padding-top: 38px;
+  }
+
+  .time-meaning {
+    display: none;
+  }
+}
