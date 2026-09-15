@@ -1,0 +1,15 @@
+title: CERBERUS
+description: Personal journal
+author: D3Capital
+
+theme: minima
+
+url: "https://d3capital.github.io"
+baseurl: "/cerberus"
+
+markdown: kramdown
+
+header_pages:
+  - about.md
+
+show_excerpts: true
