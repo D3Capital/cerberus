@@ -1,0 +1,60 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+
+<section class="archive">
+
+  <header class="archive-header">
+    <span class="archive-kicker">ARCHIVE</span>
+    <h1>All entries.</h1>
+  </header>
+
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+  <div class="archive-years">
+
+    {% for year in postsByYear %}
+
+      <section class="archive-year">
+
+        <div class="archive-year-label">
+          {{ year.name }}
+        </div>
+
+        <div class="archive-list">
+
+          {% for post in year.items %}
+
+            <a class="archive-entry" href="{{ post.url | relative_url }}">
+
+              <time>
+                {{ post.date | date: "%d %b" }}
+              </time>
+
+              <span class="archive-entry-title">
+                {{ post.title }}
+              </span>
+
+              <span class="archive-entry-category">
+                {% if post.category %}
+                  {{ post.category }}
+                {% else %}
+                  Notes
+                {% endif %}
+              </span>
+
+            </a>
+
+          {% endfor %}
+
+        </div>
+
+      </section>
+
+    {% endfor %}
+
+  </div>
+
+</section>
