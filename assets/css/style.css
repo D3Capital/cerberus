@@ -458,3 +458,55 @@ a {
     display: none;
   }
 }
+/* =========================================================
+   Post Details
+   ========================================================= */
+
+.post-header {
+  margin-bottom: 65px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid var(--line);
+}
+
+.post-header .entry-meta {
+  margin-bottom: 20px;
+}
+
+.post-description {
+  max-width: 620px;
+  color: var(--text-soft);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.post-body {
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
+}
+
+.post-end {
+  margin-top: 90px;
+  padding-top: 28px;
+
+  border-top: 1px solid var(--line);
+
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--text-dim);
+
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+.post-end span {
+  color: var(--accent);
+}
+
+.post-end a {
+  color: var(--text-soft);
+  border: 0;
+}
+
+.post-end a:hover {
+  color: var(--accent);
+}
