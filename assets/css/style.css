@@ -787,3 +787,136 @@ a {
     display: none;
   }
 }
+/* =========================================================
+   CERBERUS — Chinese Reading Typography
+   ========================================================= */
+
+.post-body {
+  max-width: 720px;
+
+  font-family:
+    "Noto Serif SC",
+    "Songti SC",
+    "STSong",
+    Georgia,
+    serif;
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.015em;
+
+  color: #d8d6d3;
+}
+
+
+/* 正文段落 */
+
+.post-body p {
+  margin: 0 0 1.7em;
+}
+
+
+/* 文章章节标题 */
+
+.post-body h2 {
+  margin: 3.2em 0 1.2em;
+
+  font-size: 26px;
+  line-height: 1.45;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+
+/* 次级标题 */
+
+.post-body h3 {
+  margin: 2.5em 0 1em;
+
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+
+/* 加粗 */
+
+.post-body strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+
+/* 引用 */
+
+.post-body blockquote {
+  margin: 2.5em 0;
+  padding: 0 0 0 24px;
+
+  border-left: 1px solid var(--accent);
+
+  color: var(--text-soft);
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+
+/* 列表 */
+
+.post-body ul,
+.post-body ol {
+  margin: 1.5em 0 2em;
+  padding-left: 1.5em;
+}
+
+.post-body li {
+  margin-bottom: 0.65em;
+}
+
+
+/* 分割线 */
+
+.post-body hr {
+  width: 60px;
+
+  margin: 4em auto;
+
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+
+/* 链接 */
+
+.post-body a {
+  color: var(--accent);
+  border-bottom: 1px solid rgba(143, 124, 255, 0.35);
+}
+
+
+/* 手机阅读 */
+
+@media (max-width: 700px) {
+
+  .post-body {
+    font-size: 17px;
+    line-height: 1.95;
+    letter-spacing: 0;
+  }
+
+  .post-body p {
+    margin-bottom: 1.6em;
+  }
+
+  .post-body h2 {
+    margin-top: 2.8em;
+    font-size: 23px;
+  }
+
+  .post-body h3 {
+    font-size: 19px;
+  }
+}
